@@ -25,6 +25,6 @@ numero1 = 1;
 // Vamos fazer algo um pouco mais avançado.
 let idade = 18;
 let passaporte = false;
-const viajar = (idade >= 18 && passaporte) || (!passaporte && 'sem passaporte') || `Você tem apenas ${idade} Anos.`;
+const viajar = (idade >= 18 && passaporte) || (!passaporte && 'sem passaporte') || `Você tem apenas ${idade} Anos, te falta ${18 - idade} anos`;
 console.log(`Pode viajar: ${viajar}`);
 // Usando a lógica que eu utilizei nos anteriores, você consegue descrever o que está acontecendo?
