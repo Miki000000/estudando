@@ -6,8 +6,8 @@ if (idadeIrmão - idade == 12) {
   let diferenca = '12 anos';
   console.log(`Você e seu irmão tem ${diferenca} de diferença`);
 }
-// Também existe outra forma de verificar, caso a condicional não seja cumprida.
-// Você pode, em vez de definir outro if, utilizar do elemento else, que dá um resultado quando todas as condições pré-definidas dão errado.
+// Também existe outra forma de verificar, caso a condicional não seja cumprida.  //
+// Você pode, em vez de definir outro if, utilizar do elemento else, que dá um resultado quando todas as condições pré-definidas dão errado.  //
 idade = 14;
 idadeIrmão = 30;
 if (idadeIrmão - idade == 12) {
