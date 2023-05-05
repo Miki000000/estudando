@@ -33,3 +33,13 @@ const exemplo1 = {
 // Lembre-se de sempre separá-las com virgula. Dessa forma, o código fica mais legivel e compacto, colocando as propriedades dentro do proprio objeto.
 console.log(exemplo1);
 console.log(exemplo1.nome, exemplo1.idade);
+// Caso você queira puxar todos os valores de um objeto um atrás do outro, sem ter que ir um por um, você poderá utilizar uma iteração, com uma estrutura de loop.
+const exemplo2 = {
+  nome: 'maria',
+  idade: 20,
+  casada: true
+};
+// No caso da iteração de objetos, você precisa de um tipo diferente de loop, utilizando-o para puxar uma propriedade dentro do objeto.
+for (let i in exemplo2) {
+  console.log(exemplo2[i]);
+}

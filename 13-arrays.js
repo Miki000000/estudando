@@ -26,3 +26,8 @@ console.log(array3.length);
 // Número a menos, por começar da casa 0.
 console.log(array3[array3.length - 1]);
 // Isso por exemplo, sempre retornará o ultimo elemento da array, caso você tente sem o - 1, o resultado será undefined.
+// Caso você queira puxar todos os valores de arrays um atrás do outro, sem ter que ir um por um, você poderá utilizar uma iteração, com uma estrutura de loop.
+const exemplo = [0, 1, 2, 3, 4];
+for (let i = 0; i < exemplo.length; i++) {
+  console.log(`${i} - ${exemplo[i]}`);
+}
